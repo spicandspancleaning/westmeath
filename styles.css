@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0056b3;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Watermark Hero Section */
+#hero {
+    position: relative;
+    background-image: url("spic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.05; /* Subtle watermark effect */
+    height: 200px;
+}
+
+#hero h1, #hero p {
+    position: relative;
+    z-index: 1;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background to focus text */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 2em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white; /* Clean background to focus text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    font-size: 1.75em;
+    margin-top: 0;
+}
+
+/* Remove bullets from list items */
+ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0; /* Adds spacing for readability */
+}
+
+/* Contact and Footer */
+#contact p, footer p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer {
+    font-size: 0.8em;
+    padding: 1em;
+}
